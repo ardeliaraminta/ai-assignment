@@ -90,8 +90,9 @@ def main():
         print(f"score: {rewards}")
         state = new_state
 
+
         if done == True:
-            print("Training Completed!")
+            print("Training Done")
             break
 
     env.close()
